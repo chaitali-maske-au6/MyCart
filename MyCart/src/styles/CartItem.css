@@ -1,0 +1,36 @@
+.CartItem {
+  background: #10212382;
+  /* border: 1px solid white; */
+  width: 80%;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.CartItem img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+} 
+
+.CartItem input {
+  padding: 2px 5px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.CartItem span span {
+  margin: 10px;
+}
+
+.CartItem button {
+  padding: 5px 12px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 3px;
+}
